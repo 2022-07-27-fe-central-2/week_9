@@ -1,14 +1,88 @@
+body {
+  background: url("../assets/Great_Hall.webp") center 100vh;
+  color: white;
+}
+
+/* header */
 .header {
   display: flex;
   justify-content: center;
-  font-size: 80px;
+  font-size: 64px;
+  margin: 32px auto;
 }
+/* header */
 
+/* jumbotron */
 .jumbotron {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
+.sorting-hat {
+  width: 320px;
+  height: 320px;
+}
+/* jumbotron */
 
+/* card */
 .card {
-  margin: auto;
+  margin: 24px auto;
+  height: 320px;
+  width: 320px;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+.question {
+  padding: 4px;
+  font-size: 24px;
+  margin: 8px 0;
+}
+.form {
+  height: 144px;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.card-nav-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+.card-nav-button {
+  margin: 8px;
+  height: 40px;
+  font-size: 24px;
+}
+/* card */
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  margin-top: 40px;
+}
+.crest {
+  height: 80px;
+  width: 80px;
+  padding: 8px;
+  border: 2px solid;
+  border-radius: 8px;
+}
+.gryffindor {
+  border-color: red;
+}
+.slytherin {
+  border-color: green;
+}
+.ravenclaw {
+  border-color: blue;
+}
+.hufflepuff {
+  border-color: yellow;
+}
+/* footer */

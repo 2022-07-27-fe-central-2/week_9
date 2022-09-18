@@ -4,51 +4,52 @@
     <title>HTML</title>
     <link rel="stylesheet" href="./styles/index.css"/>
   </head>
-  <body style="background: pink">
+  <body>
+
     <!-- header -->
     <h1 class="header">Sorting Hat</h1>
     <!-- header -->
+
     <!-- jumbotron -->
-    <div class="jumbotron" style="border: 2px solid black; height: 80px">
-      <img style="border: 2px solid red; height: 80px; width: 80px" />
-      <img style="border: 2px solid green; height: 80px; width: 80px"/>
-      <img style="border: 2px solid blue; height: 80px; width: 80px"/>
-      <img style="border: 2px solid yellow; height: 80px; width: 80px"/>
+    <div class="jumbotron">
+      <img class="sorting-hat" src="./assets/Sorting_Hat.webp" />
     </div>
     <!-- jumbotron -->
-    <!--box to hold questions-->
-    <div class="card" style="border: 2px solid black; margin-top: 40px; height: 200px; width: 200px">
-      <p>
+
+    <!-- card -->
+    <div class="card">
+      <p class="question">
         Sample Question?
       </p>
-      <form>
-          <input value="question1" type="radio" />
-          <label for="question1">Question 1</label>
+      <form class="form">
+          <input type="radio" value="answer1" />
+          <label for="answer1">answer 1</label>
           <br/>
-          <input value="question2" type="radio" />
-          <label for="question2">Question 2</label>
+          <input type="radio" value="answer2" />
+          <label for="answer2">answer 2</label>
           <br/>
-          <input value="question3" type="radio" />
-          <label for="question3">Question 3</label>
+          <input type="radio" value="answer3" />
+          <label for="answer3">answer 3</label>
           <br/>
-          <input value="question4" type="radio" />
-          <label for="question4">Question 4</label>
+          <input type="radio" value="answer4" />
+          <label for="answer4">answer 4</label>
           <br/>
-          <button>Previous</button>
-          <button>Next</button>
-      </form>
+        </form>
+        <div class="card-nav-button-container">
+          <button class="card-nav-button">Previous</button>
+          <button class="card-nav-button">Next</button>
+        </div>
     </div>
-    <!--box to hold questions-->
-    <!-- footer think of something to put in here -->
-    <footer style="margin-top: 40px; border: 2px solid black; height: 80px">
-      Hi I am a footer
-    </footer>
-    <!-- footer think of something to put in here -->
+    <!-- card -->
+
+    <!-- footer -->
+    <div class="footer">
+      <img class="crest gryffindor" src="./assets/Gryffindor_crest.webp"/>
+      <img class="crest slytherin" src="./assets/Slytherin_Crest.webp"/>
+      <img class="crest ravenclaw" src="./assets/Ravenclawcrest.webp"/>
+      <img class="crest hufflepuff" src="./assets/Hufflepuff_crest.webp"/>
+    </div>
+    <!-- footer -->
+
   </body>
 </html>
-
-<!--theme colors: red, blue, green, yellow -->
-<!--things to do in the future
-1. change the background color, to be a background image
-
--->
