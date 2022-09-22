@@ -2,3 +2,22 @@ Options:
 1. Pomodoro Timer -> key point: set interval/ set timeout, setting up timers
 2. Portfolio/ tribute page -> key point: some type of carousel
 3. Survey -> key point: navigating between pages, having a result of some kind at end ** picked
+
+css importance
+
+!important
+id,
+class
+element
+
+#form {
+  background-color: blue;
+}
+
+.myclass {
+  background-color: gray;
+}
+
+p {
+  background-color: red !important;
+}
