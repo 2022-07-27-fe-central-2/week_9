@@ -2,140 +2,164 @@
 <html lang='en'>
   <head>
     <title>HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" crossorigin="anonymous" href="/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./styles/index.css"/>
   </head>
   <body>
 
     <!-- header -->
-    <h1 class="header">Sorting Hat</h1>
+    <h1 class="container text-center my-5">Sorting Hat</h1>
     <!-- header -->
 
     <!-- jumbotron -->
-    <div class="jumbotron">
+    <div class="container d-flex justify-content-center my-5">
       <img class="sorting-hat" src="./assets/Sorting_Hat.webp" />
     </div>
     <!-- jumbotron -->
 
     <!-- card -->
-    <div class="card">
-      <p class="question">
-        Sample Question 1?
-      </p>
-      <form class="form">
-          <input type="radio" value="answer1-1" />
-          <label for="answer1">answer 1-1</label>
-          <br/>
-          <input type="radio" value="answer1-2" />
-          <label for="answer2">answer 1-2</label>
-          <br/>
-          <input type="radio" value="answer1-3" />
-          <label for="answer3">answer 1-3</label>
-          <br/>
-          <input type="radio" value="answer1-4" />
-          <label for="answer4">answer 1-4</label>
-          <br/>
-        </form>
-        <div class="card-nav-button-container">
-          <button class="card-nav-button hidden">Previous</button>
-          <button class="card-nav-button">Next</button>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 col-lg-6 mx-auto">
+
+          <div class="card text-primary">
+            <div class="card-header">Sample Question 1</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-1" id="a-1-1" value="a-1-1">
+                <label class="form-check-label" for="a-1-1">answer-1-1</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-1" id="a-1-2" value="a-1-2">
+                <label class="form-check-label" for="a-1-2">answer-1-2</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-1" id="a-1-3" value="a-1-3">
+                <label class="form-check-label" for="a-1-3">answer-1-3</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-1" id="a-1-4" value="a-1-4">
+                <label class="form-check-label" for="a-1-4">answer-1-4</label>
+              </div>
+              <div class="container d-flex justify-content-center">
+                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card text-primary hidden">
+            <div class="card-header">Sample Question 2</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-2" id="a-2-1" value="a-2-1">
+                <label class="form-check-label" for="a-2-1">answer-2-1</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-2" id="a-2-2" value="a-2-2">
+                <label class="form-check-label" for="a-2-2">answer-2-2</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-2" id="a-2-3" value="a-2-3">
+                <label class="form-check-label" for="a-2-3">answer-2-3</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-2" id="a-2-4" value="a-2-4">
+                <label class="form-check-label" for="a-2-4">answer-2-4</label>
+              </div>
+              <div class="container d-flex justify-content-center">
+                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card text-primary hidden">
+            <div class="card-header">Sample Question 3</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-3" id="a-3-1" value="a-3-1">
+                <label class="form-check-label" for="a-3-1">answer-3-1</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-3" id="a-3-2" value="a-3-2">
+                <label class="form-check-label" for="a-3-2">answer-3-2</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-3" id="a-3-3" value="a-3-3">
+                <label class="form-check-label" for="a-3-3">answer-3-3</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-3" id="a-3-4" value="a-3-4">
+                <label class="form-check-label" for="a-3-4">answer-3-4</label>
+              </div>
+              <div class="container d-flex justify-content-center">
+                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card text-primary hidden">
+            <div class="card-header">Sample Question 4</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-4" id="a-4-1" value="a-4-1">
+                <label class="form-check-label" for="a-4-1">answer-4-1</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-4" id="a-4-2" value="a-4-2">
+                <label class="form-check-label" for="a-4-2">answer-4-2</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-4" id="a-4-3" value="a-4-3">
+                <label class="form-check-label" for="a-4-3">answer-4-3</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-4" id="a-4-4" value="a-4-4">
+                <label class="form-check-label" for="a-4-4">answer-4-4</label>
+              </div>
+              <div class="container d-flex justify-content-center">
+                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card text-primary hidden">
+            <div class="card-header">Sample Question 5</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-5" id="a-5-1" value="a-5-1">
+                <label class="form-check-label" for="a-5-1">answer-5-1</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-5" id="a-5-2" value="a-5-2">
+                <label class="form-check-label" for="a-5-2">answer-5-2</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-5" id="a-5-3" value="a-5-3">
+                <label class="form-check-label" for="a-5-3">answer-5-3</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="a-5" id="a-5-4" value="a-5-4">
+                <label class="form-check-label" for="a-5-4">answer-5-4</label>
+              </div>
+              <div class="container d-flex justify-content-center">
+                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+              </div>
+            </div>
+          </div>
+
         </div>
-    </div>
-    <div class="card hidden">
-      <p class="question">
-        Sample Question 2?
-      </p>
-      <form class="form">
-          <input type="radio" value="answer2-1" />
-          <label for="answer1">answer 2-1</label>
-          <br/>
-          <input type="radio" value="answer2-2" />
-          <label for="answer2">answer 2-2</label>
-          <br/>
-          <input type="radio" value="answer2-3" />
-          <label for="answer3">answer 2-3-</label>
-          <br/>
-          <input type="radio" value="answer2-4" />
-          <label for="answer4">answer 2-4</label>
-          <br/>
-        </form>
-        <div class="card-nav-button-container">
-          <button class="card-nav-button">Previous</button>
-          <button class="card-nav-button">Next</button>
-        </div>
-    </div>
-    <div class="card hidden">
-      <p class="question">
-        Sample Question 3?
-      </p>
-      <form class="form">
-          <input type="radio" value="answer3-1" />
-          <label for="answer1">answer 3-1</label>
-          <br/>
-          <input type="radio" value="answer3-2" />
-          <label for="answer2">answer 3-2</label>
-          <br/>
-          <input type="radio" value="answer3-3" />
-          <label for="answer3">answer 3-3-</label>
-          <br/>
-          <input type="radio" value="answer3-4" />
-          <label for="answer4">answer 3-4</label>
-          <br/>
-        </form>
-        <div class="card-nav-button-container">
-          <button class="card-nav-button">Previous</button>
-          <button class="card-nav-button">Next</button>
-        </div>
-    </div>
-    <div class="card hidden">
-      <p class="question">
-        Sample Question 4?
-      </p>
-      <form class="form">
-          <input type="radio" value="answer4-1" />
-          <label for="answer1">answer 4-1</label>
-          <br/>
-          <input type="radio" value="answer4-2" />
-          <label for="answer2">answer 4-2</label>
-          <br/>
-          <input type="radio" value="answer4-3" />
-          <label for="answer3">answer 4-3-</label>
-          <br/>
-          <input type="radio" value="answer4-4" />
-          <label for="answer4">answer 4-4</label>
-          <br/>
-        </form>
-        <div class="card-nav-button-container">
-          <button class="card-nav-button">Previous</button>
-          <button class="card-nav-button">Next</button>
-        </div>
-    </div>
-    <div class="card hidden">
-      <p class="question">
-        Sample Question 5?
-      </p>
-      <form class="form">
-          <input type="radio" value="answer5-1" />
-          <label for="answer1">answer 5-1</label>
-          <br/>
-          <input type="radio" value="answer5-2" />
-          <label for="answer2">answer 5-2</label>
-          <br/>
-          <input type="radio" value="answer5-3" />
-          <label for="answer3">answer 5-3-</label>
-          <br/>
-          <input type="radio" value="answer5-4" />
-          <label for="answer4">answer 5-4</label>
-          <br/>
-        </form>
-        <div class="card-nav-button-container">
-          <button class="card-nav-button">Previous</button>
-          <button class="card-nav-button">Next</button>
-        </div>
+      </div>
     </div>
     <!-- card -->
 
     <!-- footer -->
-    <div class="footer">
+    <div class="container d-flex justify-content-between">
       <img class="crest gryffindor" src="./assets/Gryffindor_crest.webp"/>
       <img class="crest slytherin" src="./assets/Slytherin_Crest.webp"/>
       <img class="crest ravenclaw" src="./assets/Ravenclawcrest.webp"/>
@@ -143,5 +167,7 @@
     </div>
     <!-- footer -->
 
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>

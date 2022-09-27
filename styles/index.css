@@ -4,19 +4,19 @@ body {
 }
 
 /* header */
-.header {
+/* .header {
   display: flex;
   justify-content: center;
   font-size: 64px;
   margin: 32px auto;
-}
+} */
 /* header */
 
 /* jumbotron */
-.jumbotron {
+/* .jumbotron {
   display: flex;
   justify-content: center;
-}
+} */
 .sorting-hat {
   width: 320px;
   height: 320px;
@@ -24,7 +24,7 @@ body {
 /* jumbotron */
 
 /* card */
-.card {
+/* .card {
   margin: 24px auto;
   height: 320px;
   width: 320px;
@@ -56,19 +56,19 @@ body {
   margin: 8px;
   height: 40px;
   font-size: 24px;
-}
+} */
 .hidden {
   display: none;
 }
 /* card */
 
 /* footer */
-.footer {
+/* .footer {
   display: flex;
   justify-content: space-around;
   height: 80px;
   margin-top: 40px;
-}
+} */
 .crest {
   height: 80px;
   width: 80px;
