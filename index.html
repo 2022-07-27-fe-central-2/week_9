@@ -23,7 +23,7 @@
       <div class="row">
         <div class="col-12 col-lg-6 mx-auto">
 
-          <div class="card text-primary">
+          <div class="card text-primary card-1">
             <div class="card-header">Sample Question 1</div>
             <div class="card-body">
               <div class="form-check">
@@ -43,13 +43,13 @@
                 <label class="form-check-label" for="a-1-4">answer-1-4</label>
               </div>
               <div class="container d-flex justify-content-center">
-                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
-                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+                <!-- <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button> -->
+                <button type="button" class="btn btn-primary mx-2 mt-4 nextButton">Next</button>
               </div>
             </div>
           </div>
 
-          <div class="card text-primary hidden">
+          <div class="card text-primary hidden card-2">
             <div class="card-header">Sample Question 2</div>
             <div class="card-body">
               <div class="form-check">
@@ -69,13 +69,13 @@
                 <label class="form-check-label" for="a-2-4">answer-2-4</label>
               </div>
               <div class="container d-flex justify-content-center">
-                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
-                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4 prevButton">Previous</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4 nextButton">Next</button>
               </div>
             </div>
           </div>
 
-          <div class="card text-primary hidden">
+          <div class="card text-primary hidden card-3">
             <div class="card-header">Sample Question 3</div>
             <div class="card-body">
               <div class="form-check">
@@ -95,13 +95,13 @@
                 <label class="form-check-label" for="a-3-4">answer-3-4</label>
               </div>
               <div class="container d-flex justify-content-center">
-                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
-                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4 prevButton">Previous</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4 nextButton">Next</button>
               </div>
             </div>
           </div>
 
-          <div class="card text-primary hidden">
+          <div class="card text-primary hidden card-4">
             <div class="card-header">Sample Question 4</div>
             <div class="card-body">
               <div class="form-check">
@@ -121,13 +121,13 @@
                 <label class="form-check-label" for="a-4-4">answer-4-4</label>
               </div>
               <div class="container d-flex justify-content-center">
-                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
-                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4 prevButton">Previous</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4 nextButton">Next</button>
               </div>
             </div>
           </div>
 
-          <div class="card text-primary hidden">
+          <div class="card text-primary hidden card-5">
             <div class="card-header">Sample Question 5</div>
             <div class="card-body">
               <div class="form-check">
@@ -147,9 +147,16 @@
                 <label class="form-check-label" for="a-5-4">answer-5-4</label>
               </div>
               <div class="container d-flex justify-content-center">
-                <button type="button" class="btn btn-primary mx-2 mt-4">Previous</button>
-                <button type="button" class="btn btn-primary mx-2 mt-4">Next</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4 prevButton">Previous</button>
+                <button type="button" class="btn btn-primary mx-2 mt-4 nextButton">Next</button>
               </div>
+            </div>
+          </div>
+
+          <div class="card text-primary hidden card-6">
+            <div class="card-header">Final Card: Display result</div>
+            <div class="card-body">
+              <p>You are sorted to house: ???</p>
             </div>
           </div>
 
@@ -169,5 +176,6 @@
 
     <script src="/node_modules/jquery/dist/jquery.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/index.js" type="module"></script>
   </body>
 </html>
