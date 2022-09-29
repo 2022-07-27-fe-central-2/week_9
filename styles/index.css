@@ -4,19 +4,10 @@ body {
 }
 
 /* header */
-.header {
-  display: flex;
-  justify-content: center;
-  font-size: 64px;
-  margin: 32px auto;
-}
+
 /* header */
 
 /* jumbotron */
-.jumbotron {
-  display: flex;
-  justify-content: center;
-}
 .sorting-hat {
   width: 320px;
   height: 320px;
@@ -24,51 +15,12 @@ body {
 /* jumbotron */
 
 /* card */
-.card {
-  margin: 24px auto;
-  height: 320px;
-  width: 320px;
-  border: 2px solid white;
-  border-radius: 8px;
-  padding: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.question {
-  padding: 4px;
-  font-size: 24px;
-  margin: 8px 0;
-}
-.form {
-  height: 144px;
-  border: 2px solid white;
-  border-radius: 8px;
-  font-size: 24px;
-  line-height: 1.5;
-}
-.card-nav-button-container {
-  display: flex;
-  justify-content: center;
-  margin: 8px;
-}
-.card-nav-button {
-  margin: 8px;
-  height: 40px;
-  font-size: 24px;
-}
 .hidden {
   display: none;
 }
 /* card */
 
 /* footer */
-.footer {
-  display: flex;
-  justify-content: space-around;
-  height: 80px;
-  margin-top: 40px;
-}
 .crest {
   height: 80px;
   width: 80px;
