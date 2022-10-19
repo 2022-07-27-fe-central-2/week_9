@@ -1,4 +1,4 @@
-const houses = new Map([
+export const houses = new Map([
   ['g', 'Gryffindor'],
   ['h', 'Hufflepuff'],
   ['r', 'Ravenclaw'],

@@ -1,5 +1,5 @@
 import {header , jumbotron, footer } from './static.js';
-import { getCard } from './cards.js';
+import { getCard, getFinalCard } from './cards.js';
 import { cardsData } from '../data/cards_data.js';
 
 $(function() {
@@ -21,8 +21,12 @@ $(function() {
     // if direction === 'next' increment card index, else
     // if direction === 'prev' decrement card index
     cardIndex = dir === 'next' ? cardIndex + 1 : cardIndex - 1
-    cards[cardIndex].removeClass('hidden')
-    console.log(resArray);
+    if (cardIndex !== 5) {
+      cards[cardIndex].removeClass('hidden')
+    } else {
+      const finalCard = getFinalCard(resArray)
+      col.append(finalCard)
+    }
   }
 
   const cards = cardsData.map((cardData, i) => {
